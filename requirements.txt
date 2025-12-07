@@ -1,0 +1,17 @@
+# GUI自动化依赖
+pyautogui>=0.9.54
+Pillow>=9.0.0
+pyperclip>=1.8.2
+
+# AI模型依赖
+volcenginesdkarkruntime>=1.0.0
+
+# RAG和机器学习依赖
+scikit-learn>=1.2.0
+numpy>=1.21.0
+
+# 数据处理依赖
+matplotlib>=3.5.0
+
+# 其他工具依赖
+python-dotenv>=0.19.0
