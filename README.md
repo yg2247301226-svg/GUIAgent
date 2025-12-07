@@ -43,24 +43,12 @@ GUIAgent_tars1/
 pip install -r requirements.txt
 ```
 
-### 2. 设置API密钥
+### 2. 启动程序
 ```bash
-export ARK_API_KEY="your_api_key_here"
+agent_ui_xlsx.py
 ```
 
-### 3. 运行系统
-
-#### 自动测试模式
-```bash
-python rag_main.py
-# 选择 1
-```
-
-#### 交互模式
-```bash
-python rag_main.py
-# 选择 2
-```
+### 3. 配置API
 
 ## 📊 核心功能详解
 
