@@ -58,10 +58,9 @@ class TestCaseManager:
         }
         
         # 加载配置和历史记录
-        self.load_config()
         self.load_execution_history()
-        
         self.create_widgets()
+        self.load_config()
         
         # 延迟刷新MD文件列表，确保界面完全加载后再执行
         self.root.after(100, self.refresh_md_file_list)
@@ -1248,3 +1247,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
